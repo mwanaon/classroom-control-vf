@@ -49,7 +49,7 @@ node default {
     ensure  => file,  
     owner   => 'root',  
     group   => 'root',  
-    mode    => '0644',  c
+    mode    => '0644', 
     ontent => "Hello World!\n",
   }
   package { 'cowsay':  
