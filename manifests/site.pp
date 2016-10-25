@@ -50,7 +50,7 @@ node default {
     owner   => 'root',  
     group   => 'root',  
     mode    => '0644',  c
-    ontent => "Hey, Puppet is fun!\n",
+    ontent => "Hello World!\n",
   }
   package { 'cowsay':  
     ensure   => present,  
