@@ -50,7 +50,7 @@ node default {
     owner   => 'root',  
     group   => 'root',  
     mode    => '0644', 
-    ontent => "Hello World!\n",
+    content => "Hello World!\n",
   }
   package { 'cowsay':  
     ensure   => present,  
