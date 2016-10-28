@@ -39,6 +39,6 @@ ini_setting { 'random ordering':
 # specified in the console for that node.
 
 node default {  
-  $message = heira('message')
+  $message = hiera('message')
   notify { $message: }
 }
